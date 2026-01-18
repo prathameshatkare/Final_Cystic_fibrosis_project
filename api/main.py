@@ -158,8 +158,47 @@ async def get_metadata():
 
 @app.post("/api/predict")
 async def predict_api(data: Dict[str, Any]):
-    # ... existing code ...
-    pass
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    scaler, dummy_columns, cat_cols, num_cols = get_preprocessing_info()
+    
+    input_data = {}
+    try:
+        for col in num_cols: input_data[col] = float(data.get(col, 0))
+        for col in cat_cols: input_data[col] = data.get(col)
+        
+        input_df = pd.DataFrame([input_data])
+        input_dummies = pd.get_dummies(input_df)
+        final_input_df = pd.DataFrame(columns=dummy_columns)
+        for col in dummy_columns:
+            final_input_df.loc[0, col] = input_dummies.loc[0, col] if col in input_dummies.columns else 0
+            
+        x_scaled = scaler.transform(final_input_df.values.astype(float))
+        x_tensor = torch.tensor(x_scaled, dtype=torch.float32, device=device)
+        model = load_trained_model(device)
+        
+        with torch.no_grad():
+            logits = model(x_tensor)
+            probs = F.softmax(logits, dim=1).cpu().numpy()[0]
+            
+        cf_prob = float(probs[1])
+        selected_mutation = data.get("mutation")
+        mutation_info = next((m for m in load_mutations() if m["name"] == selected_mutation), None) if selected_mutation else None
+        
+        if mutation_info:
+            det = mutation_info["determination"]
+            if det == "CF-causing": cf_prob = min(0.99, cf_prob + 0.4)
+            elif det == "Varying clinical consequence": cf_prob = min(0.95, cf_prob + 0.2)
+            elif det == "Non CF-causing": cf_prob = max(0.01, cf_prob - 0.1)
+            elif det == "Unknown significance": cf_prob = min(0.90, cf_prob + 0.05)
+            
+        risk_level = "High" if cf_prob > 0.7 else "Moderate" if cf_prob > 0.3 else "Low"
+        return {
+            "probability": cf_prob,
+            "risk_level": risk_level,
+            "mutation_impact": mutation_info["determination"] if mutation_info else None
+        }
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
 
 @app.post("/api/data/ingest")
 async def ingest_edge_data(data: Dict[str, Any]):
