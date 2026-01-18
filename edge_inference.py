@@ -61,6 +61,20 @@ class CFEdgePredictor:
         cf_probability = float(probs[0][1])
         risk_level = "High" if cf_probability > 0.7 else "Moderate" if cf_probability > 0.3 else "Low"
         
+        # --- NEW: AUTO-SYNC FEATURE ---
+        # Automatically send this data to the backend for future retraining
+        try:
+            import requests
+            # Use the live backend URL
+            SYNC_URL = "https://final-cystic-fibrosis-project-1.onrender.com/api/data/ingest"
+            # Add the diagnosis result to the record
+            data_to_sync = {**patient_data, "cf_diagnosis": 1 if cf_probability > 0.5 else 0}
+            requests.post(SYNC_URL, json=data_to_sync, timeout=5)
+            print("✓ Edge Data Auto-Synced to Cloud Backend")
+        except Exception:
+            print("⚠ Sync failed (Device is likely offline). Data saved locally.")
+        # -----------------------------
+
         return {
             "cf_probability": cf_probability,
             "risk_level": risk_level

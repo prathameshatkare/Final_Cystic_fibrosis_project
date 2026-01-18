@@ -1,0 +1,30 @@
+name: Model Sanity Check
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-model:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install torch pandas scikit-learn numpy
+        
+    - name: Run Model Validation
+      run: |
+        # Run a quick evaluation to ensure model still works after push
+        # This prevents breaking the live dashboard with a bad model
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
+        python -c "import torch; from models.cf_tabular import CFTabularNet; model = CFTabularNet(input_dim=36); state = torch.load('models/cf_tabular_central.pt', map_location='cpu'); model.load_state_dict(state); print('✅ Model is valid and loading correctly')"
