@@ -1,0 +1,4718 @@
+[
+  {
+    "name": "Variant legacy name",
+    "determination": "Variant final determination 25 September 2024 (current version)"
+  },
+  {
+    "name": "F508del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G542X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G551D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "N1303K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1282X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117H",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "3849+10kbC->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "621+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R553X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2789+5G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1717-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2,3",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D1152H",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "G85E",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1162X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R334W",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3272-26A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3120+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2183AA->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I507del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R347P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2184insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3659delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L206W",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "5T",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "A455E",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "5T;TG12",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "1898+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1066C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1677delTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117H;7T",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "394delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "711+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R560T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q493X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2184delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M470V",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "E60X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "P67L",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1154insTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R347H",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y1092X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1158X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1101K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E92K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3905insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2143delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S549N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117H;5T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S945L",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1078delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S549R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2789+2insA",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "E585X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1077P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V520F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L997F",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "R1066H",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R352Q",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1244E",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D110H",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1811+1634A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G178R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3876delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2622+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "711+3A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I148T",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "S1251N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4016insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "A559T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1525-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R75X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q220X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3120G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4382delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1235R",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "P205S",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R709X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "P5L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "3199del6",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S466X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "711+5G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "5T;TG11",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "5T;TG13",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "V232D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L138ins",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I336K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R75Q",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "E831X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele17a-18",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I1027T",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "S4X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1089X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F508del;I1027T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele22,23",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "T338I",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "712-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F1052V",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "D579G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "K710X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2307insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S489X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1461ins4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1812-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y122X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "A561E",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L732X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I1234V",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R785X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L467P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q890X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q39X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1248+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E92X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W846X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2347delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G576A",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "1898+3A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele22-24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "406-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y569D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1070W",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "R764X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E822X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1065P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q552X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1070Q",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "1716G/A",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "R851X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S492F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R668C",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "V456A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S466X;R1070Q",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1196X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1811+1643G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "T854T",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "405+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2711delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "457TAT->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "7T",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "4005+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3007delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1349D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L558S",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1455X",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "574delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1259insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "H609R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L927P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1335P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S341P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1313X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1609delCA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1061R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1291H",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "2105-2117del13insAGAAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup6b-10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1V",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4209TGTT->AA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D1270N",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "L218X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele17a,17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1717-8G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2055del9->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1949del84",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D614G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "W1204X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y563N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1069R",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "L967S",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "A1006E",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "T1246I",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "H199Y",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F312del",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "G551S",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q98X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y1032C",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "E1104X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1255X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3600G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3121-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "663delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3821delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "935delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q98R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1138insG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1471delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R74W",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "G126D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1288insTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1548delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L227R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4015delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R31C",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "R792X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1254X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3791delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2585delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V754M",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "Q1476X",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "3600+2insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1811+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4374+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2869insG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "P574H",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2118del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1159F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E193X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q359K/T360K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R334L",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4326delTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4-10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4005+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4040delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1341+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1161delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1367del5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S912X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G970D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1310X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L165S",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "C276X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14b-17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3849G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W57G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "991del5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "182delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3130delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G330X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V562I",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "S977F",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "H1054D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1371X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "852del22",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2043delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W401X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S434X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y913X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "306insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D110E",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "3500-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3944delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I502T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G673X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "A613T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "T1036N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele19-21",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1525-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "875+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4-11",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1213delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "621+3A->G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "I618T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I807M",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "Y849X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F1074L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "Y275X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3667ins4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "444delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2183delAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E379X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "C524X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R560K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1159P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1162L",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "I1269N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R170H",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "185+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4006-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3878delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3849+4A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q525X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1291R",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "CFTRdele2-4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3132delTG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q414X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G628R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G970R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4010del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1411X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3121-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1255P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "365-366insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2942insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele16-17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1342-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1497delGG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "306delTAGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898+5G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "P750L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "W1098R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3850-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1716+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2721del11",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3850-3T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "124del23bp",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F311L",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R334Q",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "D836Y",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "A46D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y1014C",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "S1118F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "H1375P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2991del32",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W57X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2790-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3849+40A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "405+3A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3849+5G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F508C",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "G622D",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "Q1035X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele19",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4374+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1249-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V470M",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "G27X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1101R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1102X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V201M",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "4428insGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele1",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele19,20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "875+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1717-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "557delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2176insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2957delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "125G/C",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "D443Y",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "W496X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R560S",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M952T",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "3143del9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "T1053I",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "3539del16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1098X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F1099L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "Q1382X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1412X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "977insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L88X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "300delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "541delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "622-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R352W",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "G550X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E56K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E116K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "H139R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E193K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G194V",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "2594delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2896insAG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4022insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "175insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "663insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2752-26A->G",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "Q353X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1343delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D513G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S13F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2732insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1249R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1330X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I1366N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F191V",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D192G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2185insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3171insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele11",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4-7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup22",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1811+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "297-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2954delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "541del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3028delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1833delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3359delCT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1002-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "9T",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "G314E",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "L320V",
+    "determination": "Non CF-causing"
+  },
+  {
+    "name": "Q359R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R516G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G646X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R933G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "Q1042X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "442delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R258G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "4218insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele3-10,14b-16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTR50kbdel",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele18",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele17b,18",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3601-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1524+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3171delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1924del7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3129del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3849+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "175delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.488delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+28A->G",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "L346P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "A349V",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "Q2X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F575Y",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "E588V",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "S912L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "V1240G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1274X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1480P",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "A120T",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "G149R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G194R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M265R",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "CFTRdele10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele13,14a",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele18-20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4-8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "406-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "892delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1215delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1782delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q781X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E60K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1098C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1145X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V1153E",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "S1206X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1283M",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "P99L",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "602del14",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele15",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele21",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup19",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup10-12",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup8-10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q2X;R3W",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1282X;R1283M",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3271delGG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1824delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2522insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "p.S1347PfsX13",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1874insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3154delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "297-3C->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2603delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1084_1088dup",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q290X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y362X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E407X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "V456F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L15P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y563D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "I601F",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G27R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E664X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R31L",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "Q720X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2372del8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W882X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W79X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1281X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G91R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1324P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L101X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G103X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y161D",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G194X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "C225X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q237E",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "W277X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2556insAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4279insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14a",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14b,15",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1119delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1774delCT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3737delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2634insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3056delGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "366insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1601delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2556dupT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "183delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L453S",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W19X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G745X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F1016S",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "H1085P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y84X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1248X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1291X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L102R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y109X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R117P",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W202X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele17a",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele22",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele10-14b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14a-15",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1811+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3040+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "621+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2790-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1716+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "712-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "297-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2108delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1434delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1366delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1504delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2723delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3732delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4259del5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "675del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "909delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "712-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2686dupT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "604insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "840delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E292X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1429del7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E474K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E514X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y563X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q652X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q685X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q715X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D924N",
+    "determination": "Varying clinical consequence"
+  },
+  {
+    "name": "K978X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1063X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K68X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K1302X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1308X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1309X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q207X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W216X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3349insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup1-3",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "F508C;S1251N",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "406-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2752-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "876-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3940delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "630delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1006_1007delGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "593insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "896delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2075delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "681delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1199delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2634delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3528delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3662delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1112delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1802delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "181_182dup",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4271delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3750delAG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+3insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "710_711+5del7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3271+1delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3883_3884insG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2053_2054insAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1787delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D443fs",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W356X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W361X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K381X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y577X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K598X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E656X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W679X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E33X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S962X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "D979V",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R1128X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1144X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1266X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1280X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1390X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q179X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4168delCTAAGCC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele3",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele1-10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele1-9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele16-20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2-10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4-6ains6",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele4-8,12-21",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele8,9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdelePr-3",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup2",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup4-10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup6b,7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3600+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "621+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1717-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2751+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1001+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "186-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "875+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3497delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1540del10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2053insTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1353delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.142_145delAATC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2221insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2261delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3667del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "733delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "849delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1460delAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "295ins8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2335delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2557delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2937_2942delinsTCAGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2949del5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3143delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "435insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "556delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.49_50delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1601delTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "464delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3600+5G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "622-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3271+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3499+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1248+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1342-1delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1309delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1465_1466insTAAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1289insTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2089delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3617delGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "174delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3477delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y304X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q372X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q378X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E402X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K442X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E528X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L568X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y569X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E588X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S660X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K688X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q30X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L719X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E730X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q767X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q779X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R810X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q814X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E815X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E826X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K830X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E56X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1003X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1011X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y1182X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G85X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1247X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "G1287X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y1307X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "W1316X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y1381X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1401X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q151X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele12",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele1-24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele11-18",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14a-17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele16,17a",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2-6b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele9,10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup16,17a",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup22-24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup6b-16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1812-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3272-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1342-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3271+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3600+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "621+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "185+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "710del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1341+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "185+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "405+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "982delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1058delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "525delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1375_1385del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "284delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2113delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3041delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3396delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3521del14",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3622insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "489delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3730A->TCT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "680delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1221delCT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1291delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1556delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1576insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1813insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1918delGC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1807delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1978dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2189CT->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2148delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2481-2482insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2708del13",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "156insG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2837delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2907delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3095insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3293delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3359delCTCTG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3532AC->GTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3747delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4064-4065delinsAATATG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4108delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4177delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4222delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "542del7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "654del5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "675del14",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.551_555delTTTCC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "713delGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.604_605delTG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "840insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2655del26",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4160insG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1L",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1812-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1001+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4095+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4096-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3041-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3601-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "711+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1001+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1716+2delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3499+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3041-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4040dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1675_1687del13",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3231_3232delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3454delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3967delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.40_44delAAACT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.4028delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1608delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1708_1712delTTATT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1857delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2357dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.324delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3495delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "538insAC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "565delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "624delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1219delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1565delCA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1660delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1845delAG/1846delGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1853_1863del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2045delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2406_2407delinsT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2466delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2472_2478del7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2879_2882delCTAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3180delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3325delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3426_3427insGTAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4332delTG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.4delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "954delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1312dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1573delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2805_2810delinsTCAGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3061insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3525_3537del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3750delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3755delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "690delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L240X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.775delinsGCTGGGAAGAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1I",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L320X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K329X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q376X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q452X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E479X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E504X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y517X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E527X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K14X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K536X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R555X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L570X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L581X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S631X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q634X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R657X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E692X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y38X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q799X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L812X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K52X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E54X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K946X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K951X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q996X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1012X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1037X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1038X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1044X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1046X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1059X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1100X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K1165X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S1178X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1186X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1243X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L1253X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K1351X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "C1400X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E1409X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "C1410X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R104X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K114X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L159X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "L165X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q237X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Y247X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q250X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q270X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "E279X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "R289X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele13",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele23",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele6b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele1,10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele1,11-24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele11-15,17a,17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele12,13,16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele14b-20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "IVS15+1085_IVS17B+260del7201",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele16-18",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele18-24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele19-24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2-22",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2-7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2-8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2-9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele2,3,10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele20-23",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele23,24",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele5,6a",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdele7,8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdelePr-9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup1",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup14a-19",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup14b-17b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup16-18",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup16-20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup16-22",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup2-4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup22,23",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup4-19",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup4-8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "CFTRdup6a,6b",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3413_3499+268del355PBins6PB",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3499+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4095+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1248insATCAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1341+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1341+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1342-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1524+1delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898+2delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2751+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2752-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "406-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3121-2A->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3499+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3500-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4095+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "622-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "186-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2623-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3121-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3121-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3601-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2104insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2215delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2640delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1157insTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1249insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "241delAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1262delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1288insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1294del7",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1380insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1498delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1571delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1749insTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1806delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1874_1875insTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1932delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1942del17",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1978delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "317insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2005delTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2109-2118del10",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2118del14",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2132delAC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2175insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2409delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2435insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2456delAC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2512delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2586-2687insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2747delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2732_2733insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2733insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2935del11",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2948delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2951insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "415insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3011delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3015_3018dupGTCA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3029delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3031-3032delinsA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3213-3214insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3238delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3422del16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3425delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3447delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3516del5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3556insAGTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3539_3554del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3731-3732AA->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3755dupG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3789insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "499dupC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3856delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3886insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3889dupT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3898insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3905delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3959delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3960-3961delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4089delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4165delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4197_4198delCT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4203TAG->AA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "582insG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "605insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "746insC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "905delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1037insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1040del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.982delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1185delTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "308insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2222delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2489_2490insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2694delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2777insTG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2909delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3139delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3456delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3629delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3724delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3840delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4006delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "519delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4172delGC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "936delTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "218insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1491-1500del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4301delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "749delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.234delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4048insCC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "T388X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "K716X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2787del16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2982_2988+2delCATCCAGGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1K",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3165dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3271+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1248+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1248+2T->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3500-2A->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3040+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1248+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1341+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1342-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1525-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1525-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1716+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "296+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1899-1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1898-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2623-1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2751+1G->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2790-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3120+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3271+1G->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3601-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3601-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4006-2A->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4268+2T->G",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "622-1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "875+2T->A",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1002-2A->C",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4005+1G->T",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1342-2delAG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2003del8",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2036delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2967delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3893delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3380_3383del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1200_1219del20",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1204_1205delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1212delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1115delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1190dupT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1340delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1244delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1262delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.147_150delATCT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1486delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1547_1548delGA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1581dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1759delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1784delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1807delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1725_1727delinsAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1870delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "305insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1753delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2025dupA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1894_1895del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1970delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2032_2033delTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2184del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2053delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2193ins4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2290del16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2250delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2429delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2510delAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2433_2437delinsATA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.243delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2467_2470delGAAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "379-381insT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2493delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2672delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2573delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2737delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2745_2746delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2818_2831del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2839delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2975delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2909_2924dup16",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3090del4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3126delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3152delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "Q1042TfsX5",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3359delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "458delAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3453delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3321dup",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3322_3323delGT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3344_3345insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3411_3414delGAAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3613AGCCGA->GG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3524delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.353delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3695delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3569_3570delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3847delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3892delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.381_382dup",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3889delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "526_527delAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4089ins4",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4120delCA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3999delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.4036dupC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4168delCTAAG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.4078delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "4237-4242delinsAGAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.4163_4167delTAAAA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.43dupC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.450delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "583delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.560delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "708delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.650_659del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.71_72delTGinsA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "845_846insA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.811delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.865_869delAGACA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.912delCinsGG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.937_938delTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.942delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.972delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.991_995del",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3678delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.1530_1531delTT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2538delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3089insTC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1474delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1784insATCAT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "2114delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2337delA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2341delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.264_268delATATT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.2789delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "3012delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3199delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.3635delT",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "547insTA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.4187delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.583delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "c.88_89delCA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1027delG",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "S531X",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "994del9",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1710del17bp",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "875insTACA",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "M1R",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "405+7982del18652",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "1419delC",
+    "determination": "CF-causing"
+  },
+  {
+    "name": "IVS11-1G->C",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "c.3033dup",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "c.3407_3422del16",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "3407_3422del16",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "CFTRdelePr-1",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "3121-977_3499+248del2515",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "IVSI-5842_IVS4+401del",
+    "determination": "(CF-causing under new name)"
+  },
+  {
+    "name": "*Represents the allele frequency within the CFTR2 database. This is subject to regional and ethnic variability of variant distribution and may differ from the worldwide frequency.",
+    "determination": "nan"
+  },
+  {
+    "name": "Permitted use available to clinicians, patients, and family members for clinical, research, and educational uses only. All other rights reserved.",
+    "determination": "nan"
+  },
+  {
+    "name": "Please use the following reference when citing this document: The Clinical and Functional TRanslation of CFTR (CFTR2); available at https://cftr2.org.",
+    "determination": "nan"
+  },
+  {
+    "name": "\u00a9Copyright 2011 US CF Foundation, Johns Hopkins University, The Hospital for Sick Children.",
+    "determination": "nan"
+  }
+]
