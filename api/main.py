@@ -39,6 +39,9 @@ MODELS_DIR = os.path.join(PROJECT_ROOT, "models")
 DATA_PATH = os.path.join(PROJECT_ROOT, "data", "synthetic_cystic_fibrosis_dataset.csv")
 MUTATIONS_PATH = os.path.join(PROJECT_ROOT, "data", "mutations.json")
 
+# CACHE for dashboard metrics
+_DASHBOARD_CACHE = None
+
 # Discrete numeric columns that should be dropdowns
 DISCRETE_NUM_COLS = {
     "family_history_cf": [0, 1],
@@ -199,6 +202,12 @@ async def predict_api(data: Dict[str, Any]):
 
 @app.get("/api/dashboard-metrics")
 async def get_dashboard_metrics():
+    global _DASHBOARD_CACHE
+    
+    # Return cached data if available to save CPU/Time
+    if _DASHBOARD_CACHE:
+        return _DASHBOARD_CACHE
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     scaler, dummy_columns, cat_cols, num_cols = get_preprocessing_info()
     
@@ -225,15 +234,12 @@ async def get_dashboard_metrics():
     global_metrics = evaluate_cfvision(model, test_loader, device)
     
     # Partition data into 5 hospitals to get "Real" distribution and local metrics
-    # We'll use a seed to keep partitions stable
     indices = np.arange(len(df))
     np.random.seed(42)
     np.random.shuffle(indices)
     partitions = np.array_split(indices, 5)
     
     data_distribution = []
-    radar_metrics_data = [] # We'll calculate Accuracy, F1, Recall for 3 hospitals to show in radar
-    
     hospital_metrics = {}
     for i, idx_subset in enumerate(partitions):
         h_df = df.iloc[idx_subset]
@@ -248,22 +254,15 @@ async def get_dashboard_metrics():
             "prevalence": prevalence
         })
         
-        # Evaluate global model on this hospital's local data
+        # Evaluate local hospital metrics
         h_ds = TensorDataset(torch.tensor(h_X, dtype=torch.float32), torch.tensor(h_y, dtype=torch.long))
         h_loader = DataLoader(h_ds, batch_size=32, shuffle=False)
         h_metrics = evaluate_cfvision(model, h_loader, device)
         hospital_metrics[f"h{i+1}"] = h_metrics
 
-    # Construct Radar Metrics (Metrics across sites)
+    # Construct Radar Metrics
     metrics_to_show = ["Accuracy", "Precision", "Recall", "Specific.", "AUC-ROC", "F1-Score"]
-    metrics_map = {
-        "Accuracy": "accuracy",
-        "Precision": "precision",
-        "Recall": "sensitivity",
-        "Specific.": "specificity",
-        "AUC-ROC": "auc",
-        "F1-Score": "f1"
-    }
+    metrics_map = {"Accuracy": "accuracy", "Precision": "precision", "Recall": "sensitivity", "Specific.": "specificity", "AUC-ROC": "auc", "F1-Score": "f1"}
     
     radar_metrics = []
     for m_label in metrics_to_show:
@@ -286,12 +285,12 @@ async def get_dashboard_metrics():
     from sklearn.metrics import confusion_matrix
     tn, fp, fn, tp = confusion_matrix(y_test, all_preds).ravel()
 
-    def s(v): # Sanitize for JSON
+    def s(v): # Sanitize
         if isinstance(v, (np.floating, float)):
             return 0.0 if np.isnan(v) or np.isinf(v) else float(v)
         return v
 
-    return {
+    _DASHBOARD_CACHE = {
         "summary": {
             "final_accuracy": s(global_metrics["accuracy"]),
             "f1_score": s(global_metrics["f1"]),
@@ -314,21 +313,11 @@ async def get_dashboard_metrics():
              "loss": s(global_metrics["loss"] * (2.0 - 0.1*r if r < 10 else 1.0)),
              "f1": s(global_metrics["f1"] * (0.4 + 0.06*r if r < 10 else 1.0))} for r in range(1, 11)
         ],
-        "data_distribution": [
-            {k: (s(v) if k == "prevalence" else v) for k, v in d.items()} for d in data_distribution
-        ],
-        "radar_metrics": [
-            {
-                "metric": m["metric"],
-                "h2": s(m["h2"]),
-                "h3": s(m["h3"]),
-                "h4": s(m["h4"])
-            } for m in radar_metrics
-        ],
-        "confusion_matrix": {
-            "tp": int(tp), "fp": int(fp), "fn": int(fn), "tn": int(tn)
-        }
+        "data_distribution": [{k: (s(v) if k == "prevalence" else v) for k, v in d.items()} for d in data_distribution],
+        "radar_metrics": [{ "metric": m["metric"], "h2": s(m["h2"]), "h3": s(m["h3"]), "h4": s(m["h4"]) } for m in radar_metrics],
+        "confusion_matrix": { "tp": int(tp), "fp": int(fp), "fn": int(fn), "tn": int(tn) }
     }
+    return _DASHBOARD_CACHE
 
 @app.get("/", response_class=HTMLResponse)
 async def index():
