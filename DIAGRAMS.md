@@ -330,84 +330,132 @@ This UML class diagram shows the main classes and their relationships in the sys
 classDiagram
     class CFModel {
         <<abstract>>
-        -str model_id
-        -str version
-        -dict hyperparameters
-        +train(data, epochs)
-        +evaluate(test_data)
-        +predict(input_data)
-        +save(path)
-        +load(path)
+        - model_id: str
+        - version: str
+        - hyperparameters: dict
+        + train(data: np.ndarray, epochs: int): None
+        + evaluate(test_data: np.ndarray): dict
+        + predict(input_data: np.ndarray): np.ndarray
+        + save(path: str): None
+        + load(path: str): None
     }
     
     class TeacherModel {
-        -int num_layers
-        -int hidden_size
-        +forward(x)
-        +compute_loss(predictions, targets)
+        - num_layers: int
+        - hidden_size: int
+        - attention_heads: int
+        + forward(x: torch.Tensor): torch.Tensor
+        + compute_loss(predictions: torch.Tensor, targets: torch.Tensor): torch.Tensor
+        + extract_features(x: torch.Tensor): torch.Tensor
     }
     
     class StudentModel {
-        -int compressed_size
-        -bool quantized
-        +forward(x)
-        +distill(teacher_output)
+        - compressed_size: int
+        - quantized: bool
+        - distillation_temperature: float
+        + forward(x: torch.Tensor): torch.Tensor
+        + distill(teacher_output: torch.Tensor): torch.Tensor
+        + compress_weights(): None
+        + quantize_model(): None
     }
     
     class FederatedClient {
-        -str client_id
-        -bool is_active
-        -CFModel local_model
-        +local_train(data)
-        +update_weights(global_weights)
-        +send_updates(server)
+        - client_id: str
+        - is_active: bool
+        - local_model: CFModel
+        - data_manager: CFDataManager
+        - privacy_manager: PrivacyManager
+        + local_train(data: np.ndarray): dict
+        + update_weights(global_weights: dict): None
+        + send_updates(server: FederatedServer): dict
+        + receive_global_model(model_state: dict): None
+        + validate_local_model(test_data: np.ndarray): dict
     }
     
     class FederatedServer {
-        -list~FederatedClient~ clients
-        -CFModel global_model
-        -int round_number
-        +aggregate_weights(client_updates)
-        +distribute_model(clients)
-        +coordinate_training()
+        - clients: list[FederatedClient]
+        - global_model: CFModel
+        - round_number: int
+        - aggregation_strategy: str
+        - privacy_budget: float
+        + aggregate_weights(client_updates: list[dict]): dict
+        + distribute_model(clients: list[FederatedClient]): None
+        + coordinate_training(num_rounds: int): None
+        + select_clients(num_clients: int): list[FederatedClient]
+        + broadcast_global_model(): None
     }
     
     class CFDataManager {
-        -str dataset_path
-        -dict preprocessing_config
-        +load_data()
-        +preprocess(raw_data)
-        +split_data(train_ratio)
-        +validate_data(data)
+        - dataset_path: str
+        - preprocessing_config: dict
+        - feature_columns: list[str]
+        - target_column: str
+        + load_data(): pd.DataFrame
+        + preprocess(raw_data: pd.DataFrame): np.ndarray
+        + split_data(train_ratio: float): tuple
+        + validate_data(data: np.ndarray): bool
+        + generate_synthetic_data(num_samples: int): pd.DataFrame
     }
     
     class PrivacyManager {
-        -float epsilon
-        -float delta
-        +apply_differential_privacy(gradient)
-        +secure_aggregate(weights_list)
-        +encrypt_data(data)
+        - epsilon: float
+        - delta: float
+        - noise_multiplier: float
+        - clip_bound: float
+        + apply_differential_privacy(gradient: torch.Tensor): torch.Tensor
+        + secure_aggregate(weights_list: list[dict]): dict
+        + encrypt_data(data: bytes): bytes
+        + decrypt_data(encrypted_data: bytes): bytes
+        + calculate_privacy_budget(noise_level: float, steps: int): float
     }
     
     class ModelEvaluator {
-        -dict metrics_config
-        +calculate_accuracy(y_true, y_pred)
-        +calculate_precision_recall(y_true, y_pred)
-        +generate_report(results)
-        +plot_roc_curve(y_true, y_scores)
+        - metrics_config: dict
+        - confidence_threshold: float
+        + calculate_accuracy(y_true: np.ndarray, y_pred: np.ndarray): float
+        + calculate_precision_recall(y_true: np.ndarray, y_pred: np.ndarray): tuple
+        + calculate_auc_roc(y_true: np.ndarray, y_scores: np.ndarray): float
+        + generate_report(results: dict): str
+        + plot_confusion_matrix(y_true: np.ndarray, y_pred: np.ndarray): plt.Figure
+        + plot_roc_curve(y_true: np.ndarray, y_scores: np.ndarray): plt.Figure
+    }
+    
+    class ModelRegistry {
+        - registry_path: str
+        - models: dict[str, dict]
+        + register_model(model: CFModel, metadata: dict): str
+        + get_model(model_id: str, version: str): CFModel
+        + list_models(): list[dict]
+        + delete_model(model_id: str, version: str): bool
+        + update_model_metadata(model_id: str, version: str, metadata: dict): bool
+    }
+    
+    class APIServer {
+        - host: str
+        - port: int
+        - model_service: ModelRegistry
+        - federated_service: FederatedServer
+        + start_server(): None
+        + stop_server(): None
+        + predict_endpoint(request: dict): dict
+        + train_endpoint(request: dict): dict
+        + register_client_endpoint(client_info: dict): str
     }
     
     CFModel <|-- TeacherModel
     CFModel <|-- StudentModel
-    TeacherModel ||--|| StudentModel : Knowledge Distillation
+    TeacherModel <..> StudentModel : Knowledge Distillation
     FederatedClient o-- CFModel : uses
+    FederatedClient --> CFDataManager : uses
+    FederatedClient --> PrivacyManager : uses
     FederatedServer o-- CFModel : manages
-    FederatedServer }--{ FederatedClient : manages
-    FederatedClient ..> PrivacyManager : uses
-    FederatedServer ..> PrivacyManager : uses
-    FederatedClient ..> CFDataManager : uses
-    FederatedServer ..> ModelEvaluator : uses
-    CFDataManager ..> ModelEvaluator : uses
+    FederatedServer --> ModelEvaluator : uses
+    FederatedServer }--{ FederatedClient : coordinates
+    CFDataManager --> ModelEvaluator : provides_data
+    PrivacyManager <-- FederatedClient : applies_privacy
+    PrivacyManager <-- FederatedServer : aggregates_securely
+    ModelRegistry <-- APIServer : serves_models
+    APIServer --> FederatedServer : manages_federation
 ```
 
 ## 20. UML Sequence Diagram
