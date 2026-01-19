@@ -278,3 +278,241 @@ graph LR
     B --> D[Cloud Latency<br/>- Network Delay<br/>- Server Processing<br/>- Total Response Time]
     C --> D
 ```
+
+## 18. High-Level System Design Diagram
+
+This diagram provides an overview of the complete system architecture with all major components and their interactions.
+
+```mermaid
+graph TB
+    subgraph "Client Layer"
+        CL1[Mobile App<br/>- Patient Interface<br/>- Data Input<br/>- Risk Prediction]
+        CL2[Edge Device<br/>- Raspberry Pi<br/>- Local Processing<br/>- Privacy Preservation]
+        CL3[Edge Server<br/>- Batch Processing<br/>- Local Aggregation<br/>- Gateway Function]
+    end
+    
+    subgraph "Service Layer"
+        SL1[API Gateway<br/>- Request Routing<br/>- Authentication<br/>- Rate Limiting]
+        SL2[Federated Service<br/>- Model Distribution<br/>- Weight Aggregation<br/>- Client Coordination]
+        SL3[Model Service<br/>- Model Serving<br/>- Inference Engine<br/>- Performance Monitoring]
+    end
+    
+    subgraph "Data Layer"
+        DL1[Patient Data Store<br/>- Encrypted Storage<br/>- Privacy Controls<br/>- Access Logs]
+        DL2[Model Registry<br/>- Version Management<br/>- Metadata Storage<br/>- Audit Trail]
+        DL3[Synthetic Data Generator<br/>- Pattern Synthesis<br/>- Privacy Preservation<br/>- Validation Engine]
+    end
+    
+    subgraph "Security Layer"
+        SEC1[Encryption Service<br/>- Data Encryption<br/>- Key Management<br/>- Certificate Authority]
+        SEC2[Privacy Manager<br/>- Differential Privacy<br/>- Secure Aggregation<br/>- Anonymization]
+        SEC3[Access Control<br/>- Authentication<br/>- Authorization<br/>- Audit Logging]
+    end
+    
+    CL1 --> SL1
+    CL2 --> SL1
+    CL3 --> SL1
+    SL1 --> SL2
+    SL1 --> SL3
+    SL2 --> DL2
+    SL3 --> DL1
+    DL3 --> DL1
+    SEC1 --> SL1
+    SEC2 --> SL2
+    SEC3 --> SL1
+```
+
+## 19. UML Class Diagram
+
+This UML class diagram shows the main classes and their relationships in the system.
+
+```mermaid
+classDiagram
+    class CFModel {
+        <<abstract>>
+        -str model_id
+        -str version
+        -dict hyperparameters
+        +train(data, epochs)
+        +evaluate(test_data)
+        +predict(input_data)
+        +save(path)
+        +load(path)
+    }
+    
+    class TeacherModel {
+        -int num_layers
+        -int hidden_size
+        +forward(x)
+        +compute_loss(predictions, targets)
+    }
+    
+    class StudentModel {
+        -int compressed_size
+        -bool quantized
+        +forward(x)
+        +distill(teacher_output)
+    }
+    
+    class FederatedClient {
+        -str client_id
+        -bool is_active
+        -CFModel local_model
+        +local_train(data)
+        +update_weights(global_weights)
+        +send_updates(server)
+    }
+    
+    class FederatedServer {
+        -list~FederatedClient~ clients
+        -CFModel global_model
+        -int round_number
+        +aggregate_weights(client_updates)
+        +distribute_model(clients)
+        +coordinate_training()
+    }
+    
+    class CFDataManager {
+        -str dataset_path
+        -dict preprocessing_config
+        +load_data()
+        +preprocess(raw_data)
+        +split_data(train_ratio)
+        +validate_data(data)
+    }
+    
+    class PrivacyManager {
+        -float epsilon
+        -float delta
+        +apply_differential_privacy(gradient)
+        +secure_aggregate(weights_list)
+        +encrypt_data(data)
+    }
+    
+    class ModelEvaluator {
+        -dict metrics_config
+        +calculate_accuracy(y_true, y_pred)
+        +calculate_precision_recall(y_true, y_pred)
+        +generate_report(results)
+        +plot_roc_curve(y_true, y_scores)
+    }
+    
+    CFModel <|-- TeacherModel
+    CFModel <|-- StudentModel
+    TeacherModel ||--|| StudentModel : Knowledge Distillation
+    FederatedClient o-- CFModel : uses
+    FederatedServer o-- CFModel : manages
+    FederatedServer }--{ FederatedClient : manages
+    FederatedClient ..> PrivacyManager : uses
+    FederatedServer ..> PrivacyManager : uses
+    FederatedClient ..> CFDataManager : uses
+    FederatedServer ..> ModelEvaluator : uses
+    CFDataManager ..> ModelEvaluator : uses
+```
+
+## 20. UML Sequence Diagram
+
+This UML sequence diagram shows the interaction between components during a federated learning round.
+
+```mermaid
+sequenceDiagram
+    participant FS as FederatedServer
+    participant FC as FederatedClient
+    participant PM as PrivacyManager
+    participant MM as ModelManager
+    participant DM as DataManager
+    
+    Note over FS, DM: Federated Learning Round Initialization
+    FS->>FC: Broadcast Global Model Weights
+    activate FC
+    FC->>MM: Load Global Model
+    MM-->>FC: Model Loaded
+    FC->>DM: Request Local Training Data
+    DM-->>FC: Return Local Data
+    
+    Note over FC: Local Training Phase
+    FC->>FC: Local Model Training
+    FC->>PM: Apply Differential Privacy
+    PM-->>FC: Privatized Gradients
+    
+    Note over FC, FS: Secure Aggregation
+    FC->>PM: Encrypt Model Updates
+    PM-->>FC: Encrypted Updates
+    FC->>FS: Send Encrypted Updates
+    deactivate FC
+    FS->>PM: Decrypt and Aggregate
+    PM-->>FS: Aggregated Global Model
+    
+    Note over FS: Global Model Update
+    FS->>MM: Update Global Model
+    MM-->>FS: Model Updated
+```
+
+## 21. Entity Relationship Diagram
+
+This ER diagram shows the relationships between different entities in the system.
+
+```mermaid
+erDiagram
+    PATIENT {
+        string patient_id PK
+        string genetic_markers
+        json clinical_data
+        datetime created_at
+        datetime updated_at
+    }
+    
+    MODEL_VERSION {
+        string model_id PK
+        string version PK
+        string model_type
+        float accuracy
+        datetime created_at
+        json architecture
+    }
+    
+    TRAINING_SESSION {
+        string session_id PK
+        string model_id FK
+        string client_id
+        int round_number
+        float local_loss
+        datetime start_time
+        datetime end_time
+    }
+    
+    CLIENT {
+        string client_id PK
+        string device_type
+        string location
+        boolean is_active
+        datetime registered_at
+    }
+    
+    MODEL_UPDATE {
+        string update_id PK
+        string session_id FK
+        string model_id FK
+        json weights
+        float differential_privacy_epsilon
+        datetime timestamp
+    }
+    
+    EVALUATION_RESULT {
+        string result_id PK
+        string model_id FK
+        string dataset_id
+        float accuracy
+        float precision
+        float recall
+        float auc_score
+        json confusion_matrix
+        datetime evaluated_at
+    }
+    
+    PATIENT ||--o{ TRAINING_SESSION : participates_in
+    MODEL_VERSION ||--o{ TRAINING_SESSION : used_for
+    CLIENT ||--o{ TRAINING_SESSION : executes
+    TRAINING_SESSION ||--o{ MODEL_UPDATE : generates
+    MODEL_VERSION ||--o{ EVALUATION_RESULT : evaluated
+```
